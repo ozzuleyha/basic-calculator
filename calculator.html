@@ -1,0 +1,50 @@
+<!DOCTYPE>
+<html lang="tr">
+<head>
+
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="calculator.css"/>
+
+    <script type="text/javascript" src="calculator.js"></script>
+
+</head>
+
+<body>
+
+<div id="main">
+    <div>
+        <input type="text" id="gosterge"/>
+    </div>
+
+     <div id="operators">
+         <input type="button" value="/" onclick="yazdir('/')" class ="operator"/>
+         <input type="button" value="*" onclick="yazdir('*')" class ="operator"/>
+         <input type="button" value="+" onclick="yazdir('+')" class ="operator"/>
+         <input type="button" value="-" onclick="yazdir('-')" class ="operator"/>
+     </div>
+
+     <div id="numbers">
+         <input type="button" value="." onclick="yazdir('.')" class ="num"/>
+         <input type="button" value="9" onclick="yazdir('9')" class ="num"/>
+         <input type="button" value="8" onclick="yazdir('8')" class ="num"/>
+         <input type="button" value="7" onclick="yazdir('7')" class ="num"/>
+
+         <input type="button" value="6" onclick="yazdir('6')" class ="num"/>
+         <input type="button" value="5" onclick="yazdir('5')" class ="num"/>
+         <input type="button" value="4" onclick="yazdir('4')" class ="num"/>
+         <input type="button" value="3" onclick="yazdir('3')" class ="num"/>
+
+         <input type="button" value="2" onclick="yazdir('2')" class ="num"/>
+         <input type="button" value="1" onclick="yazdir('1')" class ="num"/>
+         <input type="button" value="0" onclick="yazdir('0')" class ="num"/>
+         <input type="button" value="=" onclick="cozum()" id="esittir" class="num"/>
+     </div>
+
+    <div id="clear">
+        <input type="button" value="C" onclick="temizle()"class="clr"/>
+    </div>
+
+</div>
+</body>
+</html>

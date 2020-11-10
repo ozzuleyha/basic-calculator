@@ -1,0 +1,68 @@
+#main {
+    margin: 0 auto;
+    padding-top: 250px;
+    width: 314px;
+}
+
+#numbers {
+    width: 314px;
+    background: #95a5a6;
+    float: left;
+}
+
+#operators {
+    background-color: #95a5a6;
+}
+
+.operator {
+    background-color: #f39c12;
+    color: #ffffff;
+    font-size: 25px;
+    width: 75px;
+    height: 35px;
+}
+
+.num {
+    font-size: 25px;
+    color: black;
+    width: 75px;
+    height: 35px;
+   
+}
+
+#esittir {
+    width: 75px;
+    height: 35px;
+    background-color: #009432;
+    margin-bottom: 2px;
+}
+
+#esittir:hover {
+     background-color: #006266;
+}
+
+#clear {
+    background-color: #95a5a6;
+}
+
+.clr {
+    width: 75px;
+    height: 35px;
+    font-size: 25px;
+    background-color: #ff3838;
+    margin-bottom: 2px;
+}
+
+
+input[type="button"] {
+    border: 1px solid #000;
+}
+
+input[type="text"] {
+    background-color: #2c3e50;
+    color: #ffffff;
+    font-size: 35px;
+    text-align: left;
+    width: 314px;
+    height: 60px;
+}
